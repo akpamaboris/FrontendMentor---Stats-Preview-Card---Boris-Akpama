@@ -30,6 +30,7 @@ html {
   height: 100%;
   object-fit: cover;
   width: 100%;
+  filter: grayscale(80%);
 }
 
 .containerForTextInCard {
@@ -103,9 +104,35 @@ p {
   .textInCard {
     height: 100%;
   }
+  .containerForTextInCard {
+    margin-top: 30px;
+  }
   footer {
     margin-top: 180px;
     max-width: 1366px;
     font-size: 13px;
+  }
+  .listOfDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  h1 {
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imgInCard {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
   }
 }
