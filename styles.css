@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+
+html {
+  background-color: #0a0c1c;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  margin-top: 30px;
+}
+
+.imgDiv {
+  background-color: aqua;
+  height: 25%;
+}
+
+.textInCard {
+  margin-top: 5;
+  background-color: #1b1937;
+  height: 75%;
+  color: white;
+  padding: 20px;
+}
+
+.imgInCard {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.containerForTextInCard {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+  line-height: 35px;
+}
+h1 span {
+  color: #ab5cdb;
+}
+
+footer {
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 40px;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+.listOfDetails {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.detailBlock {
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.detailBlock h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.detailBlock div {
+  font-size: 12;
+  color: lightgrey;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    max-height: 50vh;
+    max-width: 1366px;
+    margin-top: 200px;
+    margin-bottom: auto;
+  }
+  .imgDiv {
+    flex-basis: auto;
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+  }
+  .textInCard {
+    height: 100%;
+  }
+  footer {
+    margin-top: 180px;
+    max-width: 1366px;
+    font-size: 13px;
+  }
+}
